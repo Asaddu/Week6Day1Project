@@ -75,6 +75,7 @@ storeItems.forEach(function(item) {
 
 $("#toggleDarkMode").on("click", function () {
     $("body").toggleClass("dark-mode");
+    $("h1::before").toggleClass("dark-mode");
     $("tr").toggleClass("dark-mode");
     $("button").toggleClass("dark-mode");
 });
