@@ -62,5 +62,9 @@ button {
 
 .dark-mode tr {
     background-color: #424242;
-    box-shadow: 0 3px 10px rgba(200, 200, 200, 0.2);
+    box-shadow: 0 1px 5px rgba(200, 200, 200);
+}
+
+.dark-mode h1::before {
+    background-color: #fafafa;
 }
